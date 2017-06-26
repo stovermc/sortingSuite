@@ -4,7 +4,7 @@ const bubbleSort = require('../bubbleSort')
 describe('bubbleSort functionality', function() {
   context('bubbleSort function', function() {
     it('sorts an array of integers', function() {
-      assert.equal(bubbleSort([5, 3, 12, 15, 1], [1, 3, 5, 12, 15]))
+      assert.deepEqual(bubbleSort([5, 3, 12, 15, 1]), [1, 3, 5, 12, 15])
     });
   });
 });
